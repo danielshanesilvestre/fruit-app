@@ -1,22 +1,24 @@
-import Home from "./pages/Home";
-import FruitsList from "./pages/FruitsList";
+import Homepage from "./pages/Homepage";
+import BrowseFruitsPage from "./pages/BrowseFruitsPage";
+import NewFruitPage from "./pages/NewFruitPage";
+import FruitPage from "./pages/FruitPage";
 
 const routes = [
   {
     path: "/",
-    element: <Home />
+    element: <Homepage />
   },
   {
     path: "/fruits",
-    element: <FruitsList />
+    element: <BrowseFruitsPage />
   },
   {
     path: "/fruits/new",
-    element: <></>
+    element: <NewFruitPage />
   },
   {
     path: "/fruits/:id",
-    element: <></>
+    element: <NewFruitPage />
   }
 ];
 
