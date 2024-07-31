@@ -1,7 +1,7 @@
 import Homepage from "./pages/Homepage";
 import BrowseFruitsPage from "./pages/BrowseFruitsPage";
-import NewFruitPage from "./pages/NewFruitPage";
 import FruitPage from "./pages/FruitPage";
+import NewFruitForm from "./components/NewFruitForm";
 
 const routes = [
   {
@@ -10,15 +10,17 @@ const routes = [
   },
   {
     path: "/fruits",
-    element: <BrowseFruitsPage />
-  },
-  {
-    path: "/fruits/new",
-    element: <NewFruitPage />
+    element: <BrowseFruitsPage />,
+    children: [
+      {
+        path: "/fruits/new",
+        element: <NewFruitForm />
+      }
+    ]
   },
   {
     path: "/fruits/:id",
-    element: <NewFruitPage />
+    element: <FruitPage />
   }
 ];
 

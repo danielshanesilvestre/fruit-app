@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import { Outlet } from "react-router-dom";
+
 import FruitCard from "../components/FruitCard";
 import NavBar from "../components/NavBar";
 
@@ -19,7 +21,10 @@ function BrowseFruitsPage() {
       <NavBar />
     </header>
     <main>
-
+      <Outlet context={{
+        fruits: fruits,
+        setFruits: setFruits
+      }} />
       {
         fruits.map(fruit => {
           return <FruitCard
@@ -29,7 +34,7 @@ function BrowseFruitsPage() {
           />
         })
       }
-      
+
     </main>
   </>;
 }
