@@ -1,4 +1,5 @@
 import Home from "./pages/Home";
+import FruitsList from "./pages/FruitsList";
 
 const routes = [
   {
@@ -7,7 +8,7 @@ const routes = [
   },
   {
     path: "/fruits",
-    element: <></>
+    element: <FruitsList />
   },
   {
     path: "/fruits/new",
