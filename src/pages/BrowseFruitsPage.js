@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import FruitCard from "../components/FruitCard";
 
-function FruitsList() {
+function BrowseFruitsPage() {
   const [fruits, setFruits] = useState([]);
 
   useEffect(() => {
