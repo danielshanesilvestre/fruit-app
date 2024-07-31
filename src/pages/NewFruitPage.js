@@ -1,9 +1,8 @@
 import React from "react";
 import NavBar from "../components/NavBar";
-import NewFruitForm from "../components/NewFruitForm";
 
-function NewFruit() {
-  return <div>
+function NewFruitPage() {
+  return <>
     <header>
       <NavBar />
     </header>
@@ -16,5 +15,7 @@ function NewFruit() {
       </form>
 
     </main>
-  </div>
+  </>
 }
+
+export default NewFruitPage;

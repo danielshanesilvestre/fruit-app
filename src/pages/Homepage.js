@@ -4,10 +4,14 @@ import NavBar from "../components/NavBar";
 function Homepage({}) {
 
 
-  return <div>
-    <NavBar />
-    <h1>This is the homepage!</h1>
-  </div>;
+  return <>
+    <header>
+      <NavBar />
+    </header>
+    <main>
+      <h1>This is the homepage!</h1>
+    </main>
+  </>;
 }
 
 
