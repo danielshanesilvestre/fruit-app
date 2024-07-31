@@ -1,0 +1,12 @@
+{
+  "fruits": [
+    {
+      "name": "Apple",
+      "description": "A round fruit that grows on trees."
+    },
+    {
+      "name": "Banana",
+      "description": "A long fruit with creamy flesh."
+    }
+  ]
+}
