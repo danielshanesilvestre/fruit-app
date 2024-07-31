@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import FruitCard from "../components/FruitCard";
 
 function FruitsList() {
   const [fruits, setFruits] = useState([]);
@@ -10,12 +10,17 @@ function FruitsList() {
       .then(response => response.json())
       .then(data => {
         console.log(data);
+        setFruits(data);
       });
 
   }, []);
 
   return <div>
-
+    {
+      fruits.map(fruit => {
+        return <FruitCard key={fruit.id} name={fruit.name} description={fruit.description} />
+      })
+    }
   </div>;
 }
 
