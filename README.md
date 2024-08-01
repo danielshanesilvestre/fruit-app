@@ -6,11 +6,12 @@ A small react app that lets you look at fruits.
 - View details about a specific fruit.
 - Submit new fruit using the form.
 ## How to Run
+Run the following in a terminal:
 ```
 npm run server
 npm start
 ```
-## Dependenceis
+## Dependencies
 Requires [json-server](https://github.com/typicode/json-server)
 
 ## Image credits
