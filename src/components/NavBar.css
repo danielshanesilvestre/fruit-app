@@ -1,17 +1,22 @@
+
+nav {
+  background: gray;
+  padding: 6px 6px;
+}
+
 nav > a{
   display: inline-block;
   box-sizing: border-box;
-  width: 70px;
+  width: 150px;
   padding: 5px;
   margin: 0 6px 6px;
-  background: lightblue;
+  background: palegreen;
   text-decoration: none;
   text-align: center;
-  font-size: min(10vw, 15px) ;
   color: black;
 }
 
 a.active {
-  background: black;
+  background: green;
   color: white;
 }

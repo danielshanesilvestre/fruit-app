@@ -7,7 +7,7 @@ function NavBar() {
   return <nav>
     <NavLink to="/">Home</NavLink>
     <NavLink to="/fruits">Fruits</NavLink>
-    <NavLink to="/fruits/new">Submit a new fruit</NavLink>
+    <NavLink to="/new">Submit a new fruit</NavLink>
   </nav>
 }
 

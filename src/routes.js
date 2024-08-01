@@ -1,27 +1,32 @@
+import App from "./App";
 import Homepage from "./pages/Homepage";
 import BrowseFruitsPage from "./pages/BrowseFruitsPage";
-import FruitPage from "./pages/FruitPage";
+import FruitDetailsPage from "./pages/FruitDetailsPage";
 import NewFruitForm from "./components/NewFruitForm";
 
 const routes = [
   {
     path: "/",
-    element: <Homepage />
-  },
-  {
-    path: "/fruits",
-    element: <BrowseFruitsPage />,
+    element: <App />,
     children: [
       {
-        path: "/fruits/new",
+        path: "/",
+        element: <Homepage />
+      },
+      {
+        path: "/fruits",
+        element: <BrowseFruitsPage />,
+      },
+      {
+        path: "/fruits/:id",
+        element: <FruitDetailsPage />
+      },
+      {
+        path: "/new",
         element: <NewFruitForm />
       }
     ]
   },
-  {
-    path: "/fruits/:id",
-    element: <FruitPage />
-  }
 ];
 
 export default routes;

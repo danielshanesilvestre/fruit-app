@@ -8,9 +8,11 @@ function NewFruitForm() {
   console.log(context);
 
   return <form>    
-    <label>Name:</label>
-    <input id="name-input" name="name" type="text"></input>
-    <input name="description" type="text"></input>
+    <label for="name-input">Name:</label><br/>
+    <input id="name-input" name="name" type="text"></input><br/>
+    <label for="description-input">Description:</label><br/>
+    <input id="description-input" name="description" type="text"></input><br/>
+    <button type="submit">Submit</button>
   </form>
 }
 

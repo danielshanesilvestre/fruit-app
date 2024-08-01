@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+main {
+
+  margin: 10px 10px 10px 10px;
+
+}
+
+div.fruit-card {
+  padding: 4px;
+  outline: black solid 2px;
+}

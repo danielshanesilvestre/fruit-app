@@ -4,7 +4,7 @@ function FruitCard({
   name,
   description
 }) {
-  return <div>
+  return <div className="fruit-card">
     <h4>{name}</h4>
     <p>{description}</p>
   </div>
