@@ -15,7 +15,7 @@ function Homepage({}) {
         <span>Loading Fruit of the Day!</span>
         : <>
           <span>The Fruit of the Day is {fotd.name}!</span>
-          <FruitCard name={fotd.name} description={fotd.description} />
+          <FruitCard fruit={fotd} />
         </> 
     }
   </>;

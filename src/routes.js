@@ -2,7 +2,7 @@ import App from "./App";
 import Homepage from "./pages/Homepage";
 import BrowseFruitsPage from "./pages/BrowseFruitsPage";
 import FruitDetailsPage from "./pages/FruitDetailsPage";
-import NewFruitForm from "./components/NewFruitForm";
+import NewFruitPage from "./pages/NewFruitPage";
 
 const routes = [
   {
@@ -23,7 +23,7 @@ const routes = [
       },
       {
         path: "/new",
-        element: <NewFruitForm />
+        element: <NewFruitPage />
       }
     ]
   },

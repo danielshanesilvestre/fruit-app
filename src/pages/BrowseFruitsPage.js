@@ -14,8 +14,7 @@ function BrowseFruitsPage() {
       fruits.map(fruit => {
         return <FruitCard
           key={fruit.id}
-          name={fruit.name}
-          description={fruit.description}
+          fruit={fruit}
         />
       })
     }

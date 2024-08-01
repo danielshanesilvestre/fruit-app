@@ -11,9 +11,7 @@ function FruitDetailsPage() {
 
   const fruit = fruits.find(fruit => fruit.id === id)
 
-  if (fruit === undefined) {
-    return <h1>Fruit not found!</h1>
-  }
+  if (fruit === undefined) return <h1>Fruit not found!</h1>;
 
   console.log(fruit);
 
