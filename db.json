@@ -3,7 +3,8 @@
     {
       "id": 1,
       "name": "Apple",
-      "description": "A round fruit that grows on trees."
+      "description": "A round fruit that grows on trees.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Honeycrisp-Apple.jpg"
     },
     {
       "id": 2,
