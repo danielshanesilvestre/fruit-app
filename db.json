@@ -9,7 +9,26 @@
     {
       "id": 2,
       "name": "Banana",
-      "description": "A long fruit with creamy flesh."
+      "description": "A long fruit with creamy flesh.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/af/Bananas_%28Alabama_Extension%29.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Blueberry",
+      "description": "A blue berry.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Dish_of_blueberries.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Pineapple",
+      "description": "A spiky tropical fruit.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e8/The_pineapple_%28Ananas_comosus%29.JPG"
+    },
+    {
+      "id": 5,
+      "name": "Mango",
+      "description": "A round tropical stone fruit.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/74/Mangos_-_single_and_halved.jpg"
     }
   ]
 }
