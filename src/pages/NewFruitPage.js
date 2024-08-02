@@ -56,11 +56,11 @@ function NewFruitPage() {
 
   return <form onSubmit={handleSubmit}>
     <label>Name:</label><br/>
-    <input id="name-input" name="name" type="text" onChange={handleChange}></input><br/>
+    <input id="name-input" name="name" type="text" onChange={handleChange} value={formData.name}></input><br/>
     <label>Description:</label><br/>
-    <input id="description-input" name="description" type="text" onChange={handleChange}></input><br/>
+    <input id="description-input" name="description" type="text" onChange={handleChange} value={formData.description}></input><br/>
     <label>Image:</label><br/>
-    <input id="image-input" name="image" type="text" onChange={handleChange}></input><br/>
+    <input id="image-input" name="image" type="text" onChange={handleChange} value={formData.image}></input><br/>
     <button type="submit">Submit</button>
   </form>
 }
